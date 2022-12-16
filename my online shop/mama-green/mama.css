@@ -1,0 +1,169 @@
+body {
+    background-color: rgb(16, 16, 16);
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box; 
+ }
+ 
+ #container {
+     width: 100vh;
+     height: 50px;
+     display: block;
+     line-height: 75px;
+     padding: 0;
+     margin: 0 10px;
+     position: fixed;
+     margin-top: 70px;
+    
+ }
+ nav {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+ }
+ #top {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 30px;
+     float: left;
+     color: rgb(14, 165, 14);
+     letter-spacing: 1.5px;
+     cursor: pointer;
+ }
+ #top:hover {
+     color: rgb(250, 247, 247);
+ }
+ nav ul {
+     list-style: none;
+     margin: 0;
+     padding: 30px;
+     float: right;
+ }
+ nav li {
+     display: inline;
+     margin: 0;
+ }
+ nav li a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     color: rgb(244, 7, 7);
+     text-decoration: none;
+     font-weight: bolder;
+     padding: 0 30px;
+     cursor: pointer;
+ }
+ nav li a:hover {
+     color: rgb(12, 1, 1);
+     background-color: rgb(80, 226, 31);
+     border-radius: 5px;
+ }
+
+section #banner{
+    width: 100%;
+    height: 50%;
+    position: fixed;
+    top: 100px;
+    background-image: url(/mama-green/images/nrd-D6Tu_L3chLE-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banner h2 {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 50px;
+    padding-top: 8%;
+    margin-left: 20%;
+    text-transform: uppercase;
+
+}
+#banner h3 {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    padding-bottom: 10%;
+    margin-left: 20%;
+    text-transform: uppercase;
+} 
+#content {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: block;
+    margin: 5px;
+    padding: 10px 300px;
+    position: fixed;
+    top: 545px;
+    
+}
+#content h1 {
+    color: rgb(245, 2, 19);
+    align-items: center;
+    height: auto;
+    cursor: pointer;
+    overflow:hidden;
+}
+#content h1:hover {
+    color: rgb(12, 1, 1);
+    background-color: rgb(80, 226, 31);
+    border-radius: 5px;
+    border-bottom-left-radius: 2px;
+}
+#cont2 {
+    width: 1500px;
+    height: 50px;
+    margin: auto;
+    padding: 20px;
+    top: 0;
+
+  
+}
+#gallery {
+    margin: 30px;
+    overflow: auto;
+    float: left;
+    width: 200px;
+    margin-top: 640px;
+    
+
+}
+#gallery img {
+    width: 100%;
+    height: 200px;
+}
+#gallery h4 {
+    margin: 3px;
+    padding: 0;
+    color: rgb(22, 32, 181);
+    font-weight: bold;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* section{ 
+    background-image: url(/images/nrd-D6Tu_L3chLE-unsplash.jpg);
+    width: 100%;
+    height: 00%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+ } */
